@@ -11,7 +11,7 @@
   - type: InteractionOutline
   - type: GroupExamine
   - type: Sprite
-    state: icon
+    state: helmet
     sprite: _Goobstation/Clothing/Head/Modsuits/standard.rsi
     layers:
     - state: helmet

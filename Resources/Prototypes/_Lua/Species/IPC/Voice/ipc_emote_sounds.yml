@@ -1,0 +1,22 @@
+# LuaCorp - This file is licensed under AGPLv3
+# Reuses the IPS/IPC robot screams from _Lua/SoundCollections/ipsipc.yml.
+
+- type: emoteSounds
+  id: MaleIPC
+  params:
+    variation: 0.125
+  sounds:
+    Scream:
+      collection: IPSIPCScreams
+    RobotBeep:
+      collection: RobotBeeps
+
+- type: emoteSounds
+  id: FemaleIPC
+  params:
+    variation: 0.125
+  sounds:
+    Scream:
+      collection: IPSIPCScreams
+    RobotBeep:
+      collection: RobotBeeps

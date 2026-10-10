@@ -23,7 +23,10 @@
       - state: green
       - sprite: Mobs/Ghosts/ghost_human.rsi
         state: icon
-    state: observer
+    # LuaCorp - Состояния observer нет в Markers/jobs.rsi; слой 0 уже использует green
+    # This code is licensed under AGPLv3. See LICENSE
+    state: green
+    # Конец изменённого кода
   - type: SpawnPoint
     spawn_type: Observer
 

@@ -7,7 +7,10 @@
   description: A battlemap for your epic dungeon exploring to begin, pieces not included!
   components:
     - type: Sprite
-      sprite: Objects/Fun/Tabletop/grassbm.rsi
+      # LuaCorp - Исправлен путь к спрайту battlemap (файла нет, есть Battlemaps/grassbm.rsi)
+      # This code is licensed under AGPLv3. See LICENSE
+      sprite: Objects/Fun/Tabletop/Battlemaps/grassbm.rsi
+      # Конец изменённого кода
       state: icon
     - type: TabletopGame
       boardName: tabletop-battlemap-board-name

@@ -9,7 +9,10 @@
     sprite: Objects/Misc/module.rsi
     state: security
   - type: MachineBoard
-    prototype: WeaponEnergyTurretStation
+    # LuaCorp - Плата ссылалась на несуществующий прототип WeaponEnergyTurretStation
+    # This code is licensed under AGPLv3. See LICENSE
+    prototype: WeaponEnergyTurretStationBase
+    # Конец изменённого кода
     tagRequirements:
       TurretCompatibleWeapon:
         amount: 1

@@ -404,7 +404,10 @@
       - state: mag-0
         map: ["enum.GunVisualLayers.Mag"]
   - type: Clothing
-    sprite: _Mono/Objects/Weapons/Guns/Rifles/NTSF-LTR-556
+    # LuaCorp - Путь к RSI NTSF-LTR-556 без расширения .rsi
+    # This code is licensed under AGPLv3. See LICENSE
+    sprite: _Mono/Objects/Weapons/Guns/Rifles/NTSF-LTR-556.rsi
+    # Конец изменённого кода
   - type: ChamberMagazineAmmoProvider
     soundRack:
       path: /Audio/Weapons/Guns/Cock/sf_rifle_cock.ogg

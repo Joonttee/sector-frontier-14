@@ -26,7 +26,10 @@
         sizeMaps:
           32:
             sprite: Mobs/Pets/displacements.rsi
-            state: corgi_eyes_displacement
+            # LuaCorp - Состояния corgi_eyes_displacement не существует, используется mcgriff_eyes_displacement (корги)
+            # This code is licensed under AGPLv3. See LICENSE
+            state: mcgriff_eyes_displacement
+            # Конец изменённого кода
   - type: DamageStateVisuals
     states:
       Alive:
@@ -111,7 +114,10 @@
         sizeMaps:
           32:
             sprite: Mobs/Pets/displacements.rsi
-            state: corgi_eyes_displacement
+            # LuaCorp - Состояния corgi_eyes_displacement не существует, используется mcgriff_eyes_displacement (корги)
+            # This code is licensed under AGPLv3. See LICENSE
+            state: mcgriff_eyes_displacement
+            # Конец изменённого кода
 
 - type: entity
   name: real mouse

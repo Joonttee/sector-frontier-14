@@ -1,0 +1,125 @@
+# LuaCorp - This file is licensed under AGPLv3
+# IPC species. Sprites and customization reuse the existing _EinsteinEngines assets (CC-BY-SA-3.0, see their meta.json).
+# Body: default Human, so organs are human; the IPC body prototype in _EinsteinEngines is not used.
+
+- type: species
+  id: IPC
+  name: species-name-ipc
+  roundStart: true
+  prototype: MobIPC
+  sprites: MobIPCSprites
+  defaultSkinTone: "#c5cdd6"
+  markingLimits: MobIPCMarkingLimits
+  dollPrototype: MobIPCDummy
+  skinColoration: Hues
+  maleFirstNames: NamesIPCFirst
+  femaleFirstNames: NamesIPCFirst
+  maleLastNames: NamesIPCLast
+  femaleLastNames: NamesIPCLast
+
+- type: speciesBaseSprites
+  id: MobIPCSprites
+  sprites:
+    Head: MobIPCHead
+    Hair: MobHumanoidAnyMarking
+    FacialHair: MobHumanoidAnyMarking
+    Chest: MobIPCTorso
+    HeadTop: MobHumanoidAnyMarking
+    HeadSide: MobHumanoidAnyMarking
+    Eyes: MobHumanoidEyes
+    LArm: MobIPCLArm
+    RArm: MobIPCRArm
+    LHand: MobIPCLHand
+    RHand: MobIPCRHand
+    LLeg: MobIPCLLeg
+    RLeg: MobIPCRLeg
+    LFoot: MobIPCLFoot
+    RFoot: MobIPCRFoot
+
+- type: markingPoints
+  id: MobIPCMarkingLimits
+  points:
+    Hair:
+      points: 1
+      required: false
+    Head:
+      points: 1
+      required: false
+    HeadTop:
+      points: 1
+      required: false
+    HeadSide:
+      points: 1
+      required: false
+    Arms:
+      points: 2
+      required: false
+    Legs:
+      points: 2
+      required: false
+    Chest:
+      points: 1
+      required: false
+    Overlay:
+      points: 2
+      required: false
+
+- type: humanoidBaseSprite
+  id: MobIPCHead
+  baseSprite:
+    sprite: _EinsteinEngines/Mobs/Species/IPC/parts.rsi
+    state: head_m
+
+- type: humanoidBaseSprite
+  id: MobIPCTorso
+  baseSprite:
+    sprite: _EinsteinEngines/Mobs/Species/IPC/parts.rsi
+    state: torso_m
+
+- type: humanoidBaseSprite
+  id: MobIPCLArm
+  baseSprite:
+    sprite: _EinsteinEngines/Mobs/Species/IPC/parts.rsi
+    state: l_arm
+
+- type: humanoidBaseSprite
+  id: MobIPCRArm
+  baseSprite:
+    sprite: _EinsteinEngines/Mobs/Species/IPC/parts.rsi
+    state: r_arm
+
+- type: humanoidBaseSprite
+  id: MobIPCLHand
+  baseSprite:
+    sprite: _EinsteinEngines/Mobs/Species/IPC/parts.rsi
+    state: l_hand
+
+- type: humanoidBaseSprite
+  id: MobIPCRHand
+  baseSprite:
+    sprite: _EinsteinEngines/Mobs/Species/IPC/parts.rsi
+    state: r_hand
+
+- type: humanoidBaseSprite
+  id: MobIPCLLeg
+  baseSprite:
+    sprite: _EinsteinEngines/Mobs/Species/IPC/parts.rsi
+    state: l_leg
+
+- type: humanoidBaseSprite
+  id: MobIPCRLeg
+  baseSprite:
+    sprite: _EinsteinEngines/Mobs/Species/IPC/parts.rsi
+    state: r_leg
+
+- type: humanoidBaseSprite
+  id: MobIPCLFoot
+  baseSprite:
+    sprite: _EinsteinEngines/Mobs/Species/IPC/parts.rsi
+    state: l_foot
+
+- type: humanoidBaseSprite
+  id: MobIPCRFoot
+  baseSprite:
+    sprite: _EinsteinEngines/Mobs/Species/IPC/parts.rsi
+    state: r_foot

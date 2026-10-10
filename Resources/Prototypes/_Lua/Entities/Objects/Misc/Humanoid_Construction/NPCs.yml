@@ -102,7 +102,7 @@
         !type:DamageTrigger
         damage: 400
       behaviors:
-      -	!type:EmptyAllContainersBehaviour
+      - !type:EmptyAllContainersBehaviour
       - !type:DoActsBehavior
         acts: ["Destruction"]
       - !type:PlaySoundBehavior
@@ -166,7 +166,7 @@
         !type:DamageTrigger
         damage: 400
       behaviors:
-      -	!type:EmptyAllContainersBehaviour
+      - !type:EmptyAllContainersBehaviour
       - !type:DoActsBehavior
         acts: ["Destruction"]
       - !type:PlaySoundBehavior
@@ -232,7 +232,7 @@
         !type:DamageTrigger
         damage: 400
       behaviors:
-      -	!type:EmptyAllContainersBehaviour
+      - !type:EmptyAllContainersBehaviour
       - !type:DoActsBehavior
         acts: ["Destruction"]
       - !type:PlaySoundBehavior
@@ -296,7 +296,7 @@
         !type:DamageTrigger
         damage: 400
       behaviors:
-      -	!type:EmptyAllContainersBehaviour
+      - !type:EmptyAllContainersBehaviour
       - !type:DoActsBehavior
         acts: ["Destruction"]
       - !type:PlaySoundBehavior
@@ -360,7 +360,7 @@
         !type:DamageTrigger
         damage: 400
       behaviors:
-      -	!type:EmptyAllContainersBehaviour
+      - !type:EmptyAllContainersBehaviour
       - !type:DoActsBehavior
         acts: ["Destruction"]
       - !type:PlaySoundBehavior
@@ -424,7 +424,7 @@
         !type:DamageTrigger
         damage: 400
       behaviors:
-      -	!type:EmptyAllContainersBehaviour
+      - !type:EmptyAllContainersBehaviour
       - !type:DoActsBehavior
         acts: ["Destruction"]
       - !type:PlaySoundBehavior

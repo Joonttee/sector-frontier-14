@@ -77,7 +77,10 @@
     soundHit:
         path: /Audio/Weapons/bladeslice.ogg
   - type: Item
-    sprite: Nuclear14/Objects/Weapons/Melee/scrap_machete.rsi
+    # LuaCorp - Опечатка в пути к спрайту (нет префикса _Nuclear14)
+    # This code is licensed under AGPLv3. See LICENSE
+    sprite: _Nuclear14/Objects/Weapons/Melee/scrap_machete.rsi
+    # Конец изменённого кода
 
 - type: entity
   name: ripper

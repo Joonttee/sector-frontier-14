@@ -1,0 +1,7 @@
+# LuaCorp - This file is licensed under AGPLv3
+
+- type: entity
+  save: false
+  name: Urist McTajaran
+  parent: BaseMobTajaran
+  id: MobTajaran

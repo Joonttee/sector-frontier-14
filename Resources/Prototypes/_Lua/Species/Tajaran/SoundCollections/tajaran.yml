@@ -1,0 +1,37 @@
+# LuaCorp - This file is licensed under AGPLv3
+# Audio ported from Corvax (CC-BY-SA-4.0, see Resources/Audio/_Corvax/Effects/Tajaran/attributions.yml).
+
+- type: soundCollection
+  id: TajaranScreams
+  files:
+  - /Audio/_Corvax/Effects/Tajaran/scream.ogg
+
+- type: soundCollection
+  id: TajaranLaughs
+  files:
+  - /Audio/_Corvax/Effects/Tajaran/laugh.ogg
+
+- type: soundCollection
+  id: TajaranSneezes
+  files:
+  - /Audio/_Corvax/Effects/Tajaran/sneeze.ogg
+
+- type: soundCollection
+  id: TajaranPurrs
+  files:
+  - /Audio/_Corvax/Effects/Tajaran/purr.ogg
+
+- type: soundCollection
+  id: TajaranGasps
+  files:
+  - /Audio/_Corvax/Effects/Tajaran/gasp.ogg
+
+- type: soundCollection
+  id: TajaranSighs
+  files:
+  - /Audio/_Corvax/Effects/Tajaran/sigh.ogg
+
+- type: soundCollection
+  id: TajaranCries
+  files:
+  - /Audio/_Corvax/Effects/Tajaran/cry.ogg
