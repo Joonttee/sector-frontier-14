@@ -67,7 +67,6 @@ public sealed class AutoSalarySystem : EntitySystem
             if (!_bank.HasAccountBank(uid))
                 continue;
 
-            Logger.Info($"DEBUG: {ToPrettyString(uid)} jobID: {salary.JobId}");
             var amount = job.Salary;
             if (_bank.TryBankDeposit(uid, amount) && _bank.TryGetBalance(uid, out var balance))
             {

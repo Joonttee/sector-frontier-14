@@ -1,0 +1,42 @@
+# LuaCorp - This file is licensed under AGPLv3
+
+- type: entity
+  save: false
+  name: Urist McIPC
+  parent: BaseMobSpeciesOrganic
+  id: BaseMobIPC
+  abstract: true
+  components:
+  - type: Icon
+    sprite: _EinsteinEngines/Mobs/Species/IPC/parts.rsi
+    state: full
+  - type: Speech
+    speechVerb: Robotic
+  - type: Vocal
+    sounds:
+      Male: MaleIPC
+      Female: FemaleIPC
+      Unsexed: FemaleIPC
+  - type: HumanoidAppearance
+    species: IPC
+    hideLayersOnEquip:
+    - Hair
+    - Head
+    - HeadTop
+    - HeadSide
+  - type: LanguageKnowledge
+    speaks:
+    - Intergalactic
+    understands:
+    - Intergalactic
+
+- type: entity
+  save: false
+  name: IPC Dummy
+  parent: MobHumanDummy
+  id: MobIPCDummy
+  categories: [ HideSpawnMenu ]
+  description: A dummy IPC meant to be used in character setup.
+  components:
+  - type: HumanoidAppearance
+    species: IPC

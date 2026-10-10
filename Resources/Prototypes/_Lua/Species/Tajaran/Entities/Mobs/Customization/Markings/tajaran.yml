@@ -1,0 +1,58 @@
+# LuaCorp - This file is licensed under AGPLv3
+# Markings ported from Corvax (see Resources/Textures/_Corvax/Mobs/Customization/Tajaran, CC-BY-SA-3.0).
+
+- type: marking
+  id: TajaranOutears
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  followSkinColor: true
+  speciesRestriction: [ Tajaran ]
+  sprites:
+  - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_head.rsi
+    state: outears
+
+- type: marking
+  id: TajaranTailM
+  bodyPart: Tail
+  markingCategory: Tail
+  followSkinColor: true
+  speciesRestriction: [ Tajaran ]
+  sprites:
+  - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
+    state: tail_m
+
+- type: marking
+  id: TajaranStripesBody
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [ Tajaran ]
+  sprites:
+  - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_overlay.rsi
+    state: stripes_body
+
+- type: marking
+  id: TajaranBlotsBody
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [ Tajaran ]
+  sprites:
+  - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_overlay.rsi
+    state: blots_body
+
+- type: marking
+  id: TajaranPatch
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [ Tajaran ]
+  sprites:
+  - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_overlay.rsi
+    state: patch
+
+- type: marking
+  id: TajaranSkeletonBody
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [ Tajaran ]
+  sprites:
+  - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_overlay.rsi
+    state: skeleton_body

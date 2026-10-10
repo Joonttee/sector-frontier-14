@@ -208,7 +208,10 @@
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
-    state: Dozd
+    # LuaCorp - Состояния Dozd нет в projectiles2.rsi, используется buckshot как у остальных дробовых пеллет
+    # This code is licensed under AGPLv3. See LICENSE
+    state: buckshot
+    # Конец изменённого кода
   - type: Projectile
     damage:
       types:

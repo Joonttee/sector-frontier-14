@@ -1,0 +1,62 @@
+# LuaCorp - This file is licensed under AGPLv3
+# Custom Tajaran clips are ported from Corvax (see Resources/Audio/_Corvax/Effects/Tajaran/attributions.yml).
+
+- type: emoteSounds
+  id: MaleTajaran
+  params:
+    variation: 0.125
+  sounds:
+    Scream:
+      collection: TajaranScreams
+    Laugh:
+      collection: TajaranLaughs
+    Sneeze:
+      collection: TajaranSneezes
+    Purr:
+      collection: TajaranPurrs
+    Gasp:
+      collection: TajaranGasps
+    Sigh:
+      collection: TajaranSighs
+    Crying:
+      collection: TajaranCries
+    Cough:
+      collection: MaleCoughs
+    Yawn:
+      collection: MaleYawn
+    Whistle:
+      collection: Whistles
+    Weh:
+      collection: Weh
+    DefaultDeathgasp:
+      collection: MaleDeathGasp
+
+- type: emoteSounds
+  id: FemaleTajaran
+  params:
+    variation: 0.125
+  sounds:
+    Scream:
+      collection: TajaranScreams
+    Laugh:
+      collection: TajaranLaughs
+    Sneeze:
+      collection: TajaranSneezes
+    Purr:
+      collection: TajaranPurrs
+    Gasp:
+      collection: TajaranGasps
+    Sigh:
+      collection: TajaranSighs
+    Crying:
+      collection: TajaranCries
+    Cough:
+      collection: FemaleCoughs
+    Yawn:
+      collection: FemaleYawn
+    Whistle:
+      collection: Whistles
+    Weh:
+      collection: Weh
+    DefaultDeathgasp:
+      collection: FemaleDeathGasp

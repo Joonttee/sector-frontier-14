@@ -280,7 +280,7 @@
     group: Consumer
     loadNode: input
     collectionName: transmissionpoint
-    sprite: _NF/Structures/Power/transmission_point_icon.rsi
+    sprite: _NF/Structures/Power/TransmissionPoint/32x32.rsi
     state: icon # FIXME: no icon, machine doesn't appear on the power monitor
   - type: WiredNetworkConnection
   - type: UserInterface
